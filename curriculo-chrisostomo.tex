@@ -1,0 +1,194 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,portuges]{twentysecondcv} %a4paper for A4
+\usepackage[utf8]{inputenc}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{img/foto.png} % Profile picture
+
+\cvname{\huge João Chrisóstomo} % Your name
+\cvjobtitle{	
+\begin{center}
+	Gerente de Entregas \\ Algar Telecom
+\end{center}
+} % Job title/career
+
+\cvdate{29 de março de 1984} % Date of birth
+\cvaddress{Ituiutaba, MG - Brasil} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+55 34 9 8441 1442} % Phone number
+\cvsite{{\small\href{https://linkedin.com/in/joao-chrisostomo}{linkedin.com/in/joao-chrisostomo}}} % Personal website
+\cvmail{joao.chrisostomo@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Experiência de 7 anos no setor de telecomunicações. Experiência com gestão de projetos de implantação em redes metálicas e ópticas.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{
+	{LaTeX/6.0},
+	{R/3.2},
+	{Python/3.7},
+	{Java/4.2},
+	{SQL/3.2},
+	{Inglês/3.7},
+	{Rede de dados metro/4.6},
+	{Análise de dados/4.7},	
+	{Gerenciamento/5.0}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{Carismática/9.3},{Criativa/8.7},{Criativa/8.7}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+% \section{Interesses}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+
+
+\section{Formação}
+
+\begin{twenty} % Environment for a list with descriptions
+	\\
+	\\
+	\twentyitem{JUN-2015}{Graduação em Física}{FACIP-UFU}{\emph{Universidade Federal de Uberlândia}}
+	\\
+	\twentyitem{DEZ-2024}{Graduando em Engenharia de Software (andamento)}{UNICSUL}{\emph{Universidade Cruzeiro do Sul}}
+	\\
+	\\
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experiência}
+
+\begin{twenty} % Environment for a list with descriptions
+	\\
+	\\
+	\twentyitem{\small 2021-2022}{Gerente de Entregas}{\it ALGAR Telecom}{\emph{Atuei na gestão de migração de redes Last Mile para rede própria, com a implantação de redes metálicas e ópticas com arquitetura GPON e Ethernet. 
+	Realizei o mapeamento dos processos internos da empresa para realizar as demandas particulares ao projeto.
+	Organizei a base de dados dos circuitos Last Mile (MariaDB/MySQL), realizando a coleta, tratamento, modelagem e análise dos dados (python/pandas/numpy), permitindo assim a classificação dos circuitos com maior impacto econômico e maior proximidade de rede (georreferenciamento). Elaborei o dashboard (Power BI) com o status report do projeto para acompanhamento execuções e revisão de ganhos. Implementei e administrei o monitoramento de tarefas e acompanhamento do projeto dentro do Jira Software.}}
+	\\	
+	\twentyitem{\small 2020-2021}{Analista de Suporte Pleno}{\it ALGAR TI}{\emph{Responsável tratativa e acionamentos em incidentes de chamados de TI para clientes B2B. 
+	Atuei no suporte de ambiente Windows, no cadastro e na configuração de perfis de usuários no Active Directory(AD). 
+	Elaborei o dashboard (Power BI) de monitoramento dos chamados do squad.}}
+	\\	
+	\twentyitem{\small 2018-2020}{Analista de Redes Júnior}{\it ALGAR TI}{\emph{Atuei como analista de rede na implantação e configuração equipamentos de rede para serviços do segmento B2B. Experiência em rede METRO e GPON. Experiência em equipamentos CISCO, Juniper, Extreme Networks, HP, Huawei, DATACOM, EDGE-CORE.}}
+    \\	
+	\twentyitem{\small 2015-2018}{Assistente de Suporte Operacional}{\it ALGAR TECH}{\emph{Responsável pelo atendimento ao cliente na tratativa de incidentes dos serviços de telecom para clientes do segmento varejo. Experiência em suporte em ambiente Windows. Experiência com tecnologias ADSL, HFC e GPON e 3G.}}
+	\\	
+	\twentyitem{\small 2010-2018}{Professor de Física}{\it SEE/MG}{\emph{Ministrei aulas de Física na rede pública de ensino para estudantes do Ensino Médio e da Educação de Jovens e Adultos.}}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+% \section{Competências}
+% 
+% \begin{twentyshort} % Environment for a short list with no descriptions
+% 	\twentyitemshort{Power BI}{Chapter One, Down the Rabbit Hole.}
+% 	\twentyitemshort{Python}{Chapter Two, The Pool of Tears.}
+% 	\twentyitemshort{R}{Chapter Three,  The Caucus Race and a Long Tale.}
+% 	\twentyitemshort{SQL}{Chapter Four,  The Rabbit Sends a Little Bill.}
+% 	\twentyitemshort{LaTeX}{Chapter Five,  Advice from a Caterpillar.}
+% 	%\twentyitemshort{<dates>}{<title/description>}
+% \end{twentyshort}
+
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+% \section{Awards}
+% 
+% \begin{twentyshort} % Environment for a short list with no descriptions
+% 	\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+% 	\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+% 	%\twentyitemshort{<dates>}{<title/description>}
+% \end{twentyshort}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+% \section{Other information}
+% 
+% \subsection{Review}
+% 
+% txt
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
